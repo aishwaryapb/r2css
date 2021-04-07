@@ -118,4 +118,20 @@ button:hover {
   background-color: #ef0041;
   color: white;
 }
+
+/* Media queries */
+
+@media screen and (max-width: 550px) {
+  .wrapper {
+    width: calc(100% - 2rem);
+    padding: 0 1rem;
+  }
+  .editors {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 90%;
+  }
+}
 </style>

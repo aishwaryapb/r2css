@@ -94,4 +94,25 @@ body {
   outline: none;
 }
 
+/* Media queries */
+
+@media screen and (max-width: 550px) {
+  .header {
+    margin-bottom: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  .header #logo {
+    height: 4rem;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
 </style>

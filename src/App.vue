@@ -15,6 +15,17 @@ import logo from './assets/logo.png';
 
 export default {
   name: 'App',
+  metaInfo: {
+    title: 'r2css',
+    htmlAttrs: {
+      lang: 'en-US'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Online tool that converts react style to css style' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ]
+  },
   components: {
     StyleConverter
   },

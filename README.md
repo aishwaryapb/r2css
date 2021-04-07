@@ -1,6 +1,6 @@
 # r2css
 
-Online tool that converts react inline styling to css style. Yep, pretty straightforward and simple.
+[Online tool](http://r2css.netlify.app/) that converts react inline styling to css style. Yep, pretty straightforward and simple.
 
 ### Motivation to build this
 
